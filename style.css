@@ -1,0 +1,188 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: (white);
+  border-radius: 10px;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin-left:10 px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: bisque;
+  box-shadow: 0 2px 8px rgb(117, 7, 117);
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 1000;
+  padding: 15px 35px;
+}
+
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: violet;
+}
+
+
+
+
+
+.logo{
+  text-decoration:gray;
+  font-size: 30px;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+  background: dark purple;
+}
+
+.navbar ul li a:hover {
+  color: #007BFF;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 0;
+  flex-wrap: wrap;
+}
+
+.home-image img.profile-img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.hero-text {
+  max-width: 300px;
+}
+
+
+.hero-text h1 span {
+  color: #007BFF;
+}
+
+.hero-text .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+.about{ width: 600px;
+   margin: 500px auto; 
+  padding: 10px 50px; 
+  background: lemonchiffon;
+   border-radius: 12px;
+    box-shadow: 0 4px 10px ( brown,0,0,0,0.3); 
+   line-height: 1.8;
+    font-size:  20px;
+     margin-top: 10px; 
+     justify-content: space-around; }
+
+
+.skill-box{
+  background-color: rgba(255, 255, 255, 0.175);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-radius: 20px;
+  border: 3px solid rgb(30, 90, 92);
+  transition: border 1s;
+  margin: 10px;
+}
+
+.skill-box:hover {
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.skill-box img {
+  width: 60px;
+  height: 60px;
+}
+
+
+.contact-form {
+  width: 35%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.contact-form label {
+  color: white;
+  font-size: 18px;
+}
+
+.contact-form input,
+textarea {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(90, 25, 25);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgb(221, 169, 169);
+}
+
+.contact-form input[value="Send Message"] {
+  background-color: rgb(60, 90, 335);
+  color: gray;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form input[value="Send Message"]:hover {
+  background-color: rgb(30, 90, 92);
+  color: rgb(2, 1, 5);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 2px solid darkgrey;
+}
+
+
+
+
+
