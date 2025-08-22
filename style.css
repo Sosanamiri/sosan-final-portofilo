@@ -26,6 +26,12 @@ main {
   padding: 15px 35px;
 }
 
+.navbar .logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
 
 .navbar ul {
   list-style: none;
@@ -38,16 +44,13 @@ main {
 .navbar ul li a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   transition: color 0.3s;
 }
 
 .navbar ul li a:hover {
   color: violet;
 }
-
-
-
 
 
 .logo{
@@ -93,6 +96,10 @@ main {
   color: #007BFF;
 }
 
+.hero-text h3 {
+  margin: 10px 0;
+}
+
 .hero-text .btn {
   display: inline-block;
   margin-top: 15px;
@@ -133,6 +140,30 @@ main {
   height: 60px;
 }
 
+.experience {
+  margin: 60px 0;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.exp-logo {
+  width: 80px;
+  border-radius: 10px;
+}
+
+.contact {
+  margin: 60px 0;
+  text-align: center;
+}
 
 .contact-form {
   width: 35%;
@@ -181,8 +212,3 @@ textarea {
 .contact-form textarea:focus {
   border: 2px solid black;
 }
-
-
-
-
-
