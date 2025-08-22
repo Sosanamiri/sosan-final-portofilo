@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sosan Amiri | Portfolio</title>
 
-  <link rel="stylesheet" href="style.css">
-
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 
 <body>
   <main>
-
+    <!-- Navbar -->
     <header class="navbar">
       <div class="nav-header">
         <a href="#" class="logo">Portfolio.</a>
@@ -30,10 +27,10 @@
       </nav>
     </header>
 
-    
+    <!-- Hero -->
     <section id="home" class="hero">
       <div class="home-image">
-        <img src="beutiful.jpg" alt="Profile Picture" class="profile-img">
+        <img src="beutiful.jpg" alt="Profile Picture" class="profile-img" />
       </div>
       <div class="hero-text">
         <h1>Hi, I’m <span>Sosan Amiri</span></h1>
@@ -46,7 +43,7 @@
       </div>
     </section>
 
-    
+    <!-- About -->
     <section id="about" class="about">
       <h2>A Bit About Me</h2>
       <p>
@@ -70,101 +67,69 @@
       </div>
     </section>
 
-    
+    <!-- Skills -->
     <section id="skills" class="skills">
-      <h2>My Skills</h2>
-      <ul class="skills-list">
-        <li>HTML5 & CSS3</li>
-        <li>JavaScript (Basics)</li>
-        <li>Responsive Web Design</li>
-        <li>Problem Solving</li>
-        <li>Teamwork & Leadership</li>
-      </ul>
-    </section>
-<div>  
-  
-      <section class="skills">
-        <h2 class="section-title">Skills</h2>
-        <div class="skill-container">
-          <div class="skill-box">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
-              alt="HTML Icon"
-            />
-            <h3>HTML</h3>
-          </div>
+      <h2 class="section-title">My Skills</h2>
+      <div class="skill-container">
+        <div class="skill-box">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Icon" />
+          <h3>HTML</h3>
+        </div>
 
-          <div class="skill-box">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-              alt="CSS Icon"
-            />
-            <h3>CSS</h3>
-          </div>
+        <div class="skill-box">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Icon" />
+          <h3>CSS</h3>
+        </div>
 
-          <div class="skill-box">
-            <img
-              src="https://icon.icepanel.io/Technology/svg/Git.svg"
-              alt="Git Icon"
-            />
-            <h3>Git</h3>
-          </div>
+        <div class="skill-box">
+          <img src="https://icon.icepanel.io/Technology/svg/Git.svg" alt="Git Icon" />
+          <h3>Git</h3>
+        </div>
 
-          <div class="skill-box">
-            <img
-              src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"
-              alt="GitHub Icon"
-            />
-            <h3>GitHub</h3>
-          </div>
+        <div class="skill-box">
+          <img src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png" alt="GitHub Icon" />
+          <h3>GitHub</h3>
+        </div>
 
-        
-            <h3> Linkedin</h3>
-          </div>
-
-
-    
-    <section id="experience" class="experience">
-      <h2>Experience</h2>
-       <h3>Mobile Librarian</h3>
-
-      <div class="experience-item">
-        <img src="logo.webp" alt="Charmaghaz Logo" class="exp-logo">
-        <div class="exp-details">
-         
-          <p><strong>Charmaghaz</strong> | February – May 2024</p>
-          <p>
-            Worked as a Mobile Librarian with Charmaghaz, helping to provide educational resources and books
-            to children across communities. 
-            Supported literacy, creativity, and access to knowledge for young learners.
-          </p>
-
+        <div class="skill-box">
+          <i class="fa-brands fa-linkedin" style="font-size: 50px; color:#0077B5;"></i>
+          <h3>LinkedIn</h3>
         </div>
       </div>
     </section>
-    
-      <section>
-        <h2 class="section-title">Get In Touch</h2>
-        <form class="contact-form">
-          <label for="name">Name</label>
-          <input type="text" placeholder="Your Name" />
 
-          <label for="name">Email</label>
-          <input type="email" placeholder="Your Email" />
+    <!-- Experience -->
+    <section id="experience" class="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <img src="logo.webp" alt="Charmaghaz Logo" class="exp-logo" />
+        <div class="exp-details">
+          <h3>Mobile Librarian</h3>
+          <p><strong>Charmaghaz</strong> | February – May 2024</p>
+          <p>
+            Worked as a Mobile Librarian with Charmaghaz, helping to provide educational resources and books
+            to children across communities. Supported literacy, creativity, and access to knowledge for young learners.
+          </p>
+        </div>
+      </div>
+    </section>
 
-          <label for="message">Message</label>
-          <textarea placeholder="Your Message"></textarea>
+    <!-- Contact -->
+    <section id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Your Name" />
 
-          <input type="submit" value="Send Message" />
-        </form>
-      </section>
-    </main>
-  </body>
-</html>
-    
-    
-  
+        <label for="email">Email</label>
+        <input type="email" placeholder="Your Email" />
+
+        <label for="message">Message</label>
+        <textarea placeholder="Your Message"></textarea>
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
   </main>
 </body>
-
 </html>
