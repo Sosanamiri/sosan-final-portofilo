@@ -2,8 +2,9 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background: (white);
+  background: (#f9f9f9);
   border-radius: 10px;
+  color: #333;
 }
 
 main {
@@ -16,13 +17,13 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  background-color: bisque;
-  box-shadow: 0 2px 8px rgb(117, 7, 117);
+  background-color: blue;
+  box-shadow: 0 2px 8px bold;
   position: fixed; 
   top: 0;
   left: 0;
   width: 100%; 
-  z-index: 1000;
+  z-index: 100;
   padding: 15px 35px;
 }
 
@@ -36,18 +37,24 @@ main {
 .navbar ul {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 25px;
   margin: 0;
   padding: 0;
-}
-
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
   font-size: 20px;
-  transition: color 0.3s;
-}
 
+}
+ 
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  padding: 20px 30px ;
+  background: none;
+  border-radius: 10px;
+  display: flex;
+  font-size: 20px 30px;
+}
 .navbar ul li a:hover {
   color: violet;
 }
@@ -59,14 +66,6 @@ main {
 
 }
 
-.navbar ul li a {
-  text-decoration: none;
-  color: white;
-  font-weight: 400;
-  padding: 10px 12px;
-  transition: all 0.3s ease;
-  background: dark purple;
-}
 
 .navbar ul li a:hover {
   color: #007BFF;
@@ -78,7 +77,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding: 60px 0;
+  padding: 40px 0;
   flex-wrap: wrap;
 }
 
@@ -102,34 +101,81 @@ main {
 
 .hero-text .btn {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 10 px;
   padding: 10px 20px;
 }
 .about{ width: 600px;
-   margin: 500px auto; 
+   margin: 100px auto; 
   padding: 10px 50px; 
-  background: lemonchiffon;
+  background: floralwhite;
    border-radius: 12px;
     box-shadow: 0 4px 10px ( brown,0,0,0,0.3); 
    line-height: 1.8;
     font-size:  20px;
-     margin-top: 10px; 
-     justify-content: space-around; }
+   justify-content: space-around; }
 
+.skills {
+  text-align: center;
+  margin: 80px auto;
+  padding: 5px 10px;
+  background: #f5f5f5;
+  border-radius: 12px;
+}
 
-.skill-box{
-  background-color: rgba(255, 255, 255, 0.175);
-  width: 100px;
-  height: 100px;
+.skills h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+  .skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+}
+
+.skill-box {
+  background: white;
+  width: 60px;
+  height: 60px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 15px;
-  border-radius: 20px;
-  border: 3px solid rgb(30, 90, 92);
-  transition: border 1s;
-  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
 }
+
+.skill-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.skill-box img, i{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+}
+
+
+
+.skill-box img, p .skill-box{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+}
+
 
 .skill-box:hover {
   border: 3px solid rgb(255, 255, 255);
@@ -196,14 +242,14 @@ textarea {
   color: lemonchiffo;
 }
 
-.contact-form input[value="Send Message"] {
+.contact-form input[value="Submit"] {
   background-color: rgb(60, 90, 335);
-  color: wheat;
+  color: #007BFF;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.contact-form input[value="Send Message"]:hover {
+.contact-form input[value="send Message"]:hover {
   background-color: black(30, 90, 92);
   color: rgb(2, 1, 5);
 }
