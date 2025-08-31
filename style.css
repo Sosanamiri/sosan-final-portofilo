@@ -20,15 +20,15 @@ main {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 80px; /* space for fixed navbar */
+  padding-top: 80px; 
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  background-color: paleturquoise;
+  background-color: #007BFF;
   box-shadow: 0 2px 8px bold;
   position: fixed; 
   top: 0;
