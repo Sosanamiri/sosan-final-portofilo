@@ -371,6 +371,15 @@ main {
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+<<<<<<< HEAD
+=======
+}
+
+.contact h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #1e5a5c;
+>>>>>>> 83dc169070d3862bc74de5e26e41e75c7b64dd2b
 }
 
 .contact h2 {
